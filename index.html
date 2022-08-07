@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="app.js" ></script>
+</head>
+
+<body>
+    <section>
+        <div class="circle-fondo"></div>
+        <header>
+            <a href="#"><img src="./assets/logo.png" class="logo" alt="Starbucks"></a>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Menu</a>
+                <a href="#">News</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+        <div class="content">
+            <div class="text-box">
+                <h2>It's not just a Coffe<br>
+                It's <span>Starbucks</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ea, quae unde recusandae officia eum voluptatibus ipsum similique ratione dignissimos impedit maiores distinctio vel et voluptatem.</p>
+                <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="img-box">
+                <img src="./assets/img1.png" class="banner" alt="starbucks">
+            </div>
+        </div>
+        <div class="thumb">
+            <a href="#"><img src="./assets/thumb1.png" onclick="changeImage('./assets/img1.png');changeFondoColor('#017143')" alt=""></a>
+            <a href="#"><img src="./assets/thumb2.png" onclick="changeImage('./assets/img2.png');changeFondoColor('#eb7495')"alt=""></a>
+            <a href="#"><img src="./assets/thumb3.png" onclick="changeImage('./assets/img3.png');changeFondoColor('#d752b1')"alt=""></a>
+        </div>
+        <div class="redes">
+            <a href="#"><img src="./assets/facebook.png" alt=""></a>
+            <a href="#"><img src="./assets/twitter.png" alt=""></a>
+            <a href="#"><img src="./assets/instagram.png" alt=""></a>
+        </div>
+    </section>
+    
+   
+   
+</body>
+</html>
